@@ -1,0 +1,25 @@
+{
+  "name": "Jaguar Negro | Streetwear & Cultura Scout Oficial",
+  "short_name": "Jaguar Negro",
+  "description": "Explora, Atrévete & Destaca. Hoodies heavyweight, playeras oversized, llaveros corte láser, parches y personalización DTF oficial en México.",
+  "lang": "es-MX",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f7f5",
+  "theme_color": "#09090b",
+  "icons": [
+    {
+      "src": "assets/brand/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/brand/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

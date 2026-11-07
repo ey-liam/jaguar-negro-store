@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>404 — Ruta fuera del mapa | JAGUAR NEGRO</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #09090b;
+      --surface: #121216;
+      --border: rgba(255, 255, 255, 0.12);
+      --text: #fafafa;
+      --muted: #a1a1aa;
+      --accent: #d91e2a;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      background: radial-gradient(circle at 50% 0%, rgba(109, 40, 217, 0.18), transparent 55%), var(--bg);
+      color: var(--text);
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    }
+    .card {
+      max-width: 520px;
+      width: 100%;
+      padding: 48px 36px;
+      border-radius: 24px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      text-align: center;
+      box-shadow: 0 30px 70px rgba(0, 0, 0, 0.55);
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--border);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 24px;
+    }
+    .code {
+      font-family: 'Outfit', sans-serif;
+      font-size: clamp(68px, 14vw, 108px);
+      font-weight: 900;
+      line-height: 0.92;
+      letter-spacing: -0.05em;
+      margin-bottom: 14px;
+    }
+    h1 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 24px;
+      font-weight: 800;
+      margin-bottom: 12px;
+      letter-spacing: -0.02em;
+    }
+    p {
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.65;
+      margin-bottom: 28px;
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 14px 24px;
+      border-radius: 12px;
+      font-family: 'Outfit', sans-serif;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+    .btn-primary {
+      background: #ffffff;
+      color: #09090b;
+    }
+    .btn-primary:hover { transform: translateY(-2px); background: #e4e4e7; }
+    .btn-ghost {
+      background: transparent;
+      color: #ffffff;
+      border: 1px solid var(--border);
+    }
+    .btn-ghost:hover { transform: translateY(-2px); background: rgba(255, 255, 255, 0.06); }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="badge">ONLY IN JAGUAR NEGRO &middot; ERROR 404</div>
+    <div class="code">404</div>
+    <h1>Esta coordenada no está en el mapa</h1>
+    <p>La prenda o sección que buscas cambió de ubicación o aún no sale en el drop actual. Regresa a la tienda oficial para explorar toda la colección.</p>
+    <div class="actions">
+      <a href="./" class="btn btn-primary">Ir al Inicio</a>
+      <a href="./#catalogo" class="btn btn-ghost">Ver Catálogo</a>
+    </div>
+  </main>
+</body>
+</html>
