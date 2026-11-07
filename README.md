@@ -11,7 +11,7 @@ Sitio web estático de comercio directo, catálogo editorial y personalizador in
 - `styles.css` — Sistema de diseño editorial/estudio, tipografías oficiales `@font-face`, animaciones GPU (`requestAnimationFrame` + `IntersectionObserver` + inclinación 3D).
 - `app.js` — Motor del catálogo, selector de variantes/tallas, etiqueta tejida dinámica (`XS`–`2XL`), bolsa persistente (`localStorage`) y generador de tickets para DM/WhatsApp.
 - `assets/` — Fotografías de estudio optimizadas en WebP, carteles de campaña, vectores transparentes para personalización, etiquetas de talla, tipografías oficiales y reel en MP4.
-- `PUBLICAR_GITHUB.bat` — Script de un clic para crear o actualizar el repositorio en GitHub Pages (`https://ey-liam.github.io/jaguar-negro/`).
+- `PUBLICAR_GITHUB.bat` — Script de un clic para crear o actualizar el repositorio en GitHub Pages (`https://ey-liam.github.io/jaguar-negro-store/`).
 
 ## Desarrollo Local
 
